@@ -7,16 +7,16 @@ Include git information in your Vite builds.
 vite.config.js
 ```js
 import { defineConfig } from "vite";
-import gitInfo from "vite-plugin-gitinfo";
+import gitInfoPlugin from "vite-plugin-gitinfo";
 
 export default defineConfig({
-  plugins: [..., gitInfo()],
+  plugins: [..., gitInfoPlugin()],
 })
 ```
 
 myfile.ts
 ```ts
-import gitinfo from "virtual:gitinfo";
+import gitInfo from "virtual:gitinfo";
 
-console.log(gitinfo.sha); // 123abcd
+console.log(gitInfo.sha); // 123abcd
 ```
