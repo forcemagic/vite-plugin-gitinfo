@@ -1,4 +1,4 @@
-declare module "virtual:git-info" {
+declare module "virtual:gitinfo" {
   const gitInfo: {
     /**
      * Commit hash resolved from HEAD.

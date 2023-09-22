@@ -10,11 +10,11 @@ const gettxt = async (/** @type {string} */ cmd) =>
  * @returns {import('vite').Plugin}
  */
 export default function gitInfoPlugin() {
-  const virtualModuleId = "virtual:git-info";
+  const virtualModuleId = "virtual:gitinfo";
   const resolvedVirtualModuleId = "\0" + virtualModuleId;
 
   return {
-    name: "git-info",
+    name: "gitinfo",
     resolveId(id) {
       if (id === virtualModuleId) {
         return resolvedVirtualModuleId;
