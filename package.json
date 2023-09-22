@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-gitinfo",
+  "version": "0.1.0",
+  "description": "Include git information in your vite build",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite-plugin",
+    "git",
+    "vcs"
+  ],
+  "author": "Máté Szén <matemate001@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
