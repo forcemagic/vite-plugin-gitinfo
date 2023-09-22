@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-gitinfo",
+  "name": "@forcemagic/vite-plugin-gitinfo",
   "version": "0.1.0",
   "description": "Include git information in your vite build",
   "type": "module",
