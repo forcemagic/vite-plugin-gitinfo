@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-add-gitinfo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Include git information in your vite build",
   "type": "module",
   "main": "index.js",
