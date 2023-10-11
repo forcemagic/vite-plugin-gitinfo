@@ -11,3 +11,8 @@ const srv = await createServer({
 });
 await srv.listen(3000);
 srv.printUrls();
+
+// await build({
+//   plugins: [gitInfo()],
+//   root,
+// });
