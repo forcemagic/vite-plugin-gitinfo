@@ -1,7 +1,7 @@
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { createServer } from "vite";
-import gitInfo from "../index.js";
+import gitInfo from "../";
 
 const root = dirname(fileURLToPath(import.meta.url));
 
