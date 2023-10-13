@@ -20,9 +20,5 @@
   },
   "peerDependencies": {
     "vite": "^4.4.9"
-  },
-  "devDependencies": {
-    "@types/node": "^20.8.4",
-    "typescript": "^5.2.2"
   }
 }
